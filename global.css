@@ -1,0 +1,105 @@
+@import url('./styles.css');
+
+:root {
+  /*colors*/
+  /* primary */
+  --red: hsl(7, 99%, 70%);
+  --yellow: hsl(51, 100%, 49%);
+  --dark-desaturated-cyan: hsl(167, 40%, 24%);
+  --dark-blue: hsl(198, 62%, 26%);
+  --dark-moderate-cyan: hsl(168, 34%, 41%);
+  /* neutral */
+  --very-dark-desaturated-blue: hsl(212, 27%, 19%);
+  --very-dark-grayish-blue: hsl(213, 9%, 39%);
+  --dark-grayish-blue: hsl(232, 10%, 55%);
+  --grayish-blue: hsl(210, 4%, 67%);
+  --white: hsl(0, 0%, 100%);
+
+  /* font and typography*/
+  --normal-font-size: 18px;
+  --heading-font: "Fraunces", serif;
+  --body-font: "Barlow", sans-serif;
+
+  /*font weight*/
+  --font-semi-bold: 600;
+  --font-bold: 700;
+  --font-black: 900;
+}
+/*estilos que se repiten*/
+/*reseteos y variables*/
+
+/* base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--white);
+  font-family: var(--body-font);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+span {
+  color: var(--grayish-blue);
+}
+
+.section {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.arrow-down {
+  text-align: center;
+}
+
+.big-title {
+  color: var(--white);
+  font-weight: var(--font-black);
+  font-family: var(--heading-font);
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.text {
+  color: var(--dark-grayish-blue);
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi-bold);
+  line-height: 30px;
+  word-wrap: break-word;
+}
+
+
+
+@media screen and (min-width: 375px) {}
+
+@media screen and (min-width: 768px) {
+
+}
